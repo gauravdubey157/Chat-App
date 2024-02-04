@@ -1,0 +1,221 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ECEFF1;
+    /* font-family: 'Roboto', sans-serif; */
+
+    background-image: url('pc.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+section.chat__section{
+    width: 800px;
+    max-width: 90%;
+    border-radius: 12px;
+    overflow: hidden;
+
+    background-image: url('web.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* border-radius: 15px; */
+    /* background-image: url('chat.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; */
+    /* box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -2px rgba(0,0,0,0.05); */
+}
+
+.brand{
+    padding:20px;
+    background: #5C6BC0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.brand h1{
+    text-transform:uppercase ;
+    font-weight: 500;
+    font-size: 20px;
+    /* color:#fff; */
+    margin-left: 10px;
+}
+
+.message__area{
+    height:500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    /* background: black; */
+    padding-top: 40px;
+
+    /* background: #FFFFFF; */
+}
+
+.container {
+    display: flex;
+    /* padding: 10px; */
+    /* background: #fff; */
+    /* align-items: center; */
+}
+
+
+textarea{
+    flex-grow: 1;
+    padding:15px;
+    font-size: 16px;
+    outline:none;
+    /* background: #fbfbfb; */
+    border: 1px solid #B0BEC5;
+    resize: none;
+    border-right: none;
+    border-left: none;
+    /* margin:0 */
+}
+
+.message{
+    position:relative;
+    padding:20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    max-width: 300px;
+    /* background: #8F8BE8; */
+    
+}
+
+.message h4{
+    /* position: absolute;
+    top: -20px; */
+    
+    position: relative;
+    color: #333;
+    padding-bottom: 6px;
+    /* left:2px; */
+    font-size: 14px;
+}
+
+.incoming {
+    background: #8F8BE8;
+    color: #fff; 
+    margin-right:auto; 
+    
+    max-width: 70%;
+    word-wrap: break-word;
+    padding: 10px;
+}
+.outgoing {
+    background: rgb(73, 202, 73);
+    color: #fff;
+    margin-left: auto;
+    
+    max-width: 70%;
+    word-wrap: break-word;
+    padding: 10px;
+}
+
+.center{
+    background-color: aqua;
+    margin: 5px auto;
+    top: -20px;
+    border:2px solid grey;
+
+    max-width: 70%;
+    word-wrap: break-word;
+    padding: 10px;
+    height:auto;
+}
+
+
+
+
+#sendbtn{
+    /* width:15%; */
+    border:2px solid black;
+    cursor: pointer;
+    border-radius: 0 12px 12px 0;
+    background-color: #8E24AA;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 17px;
+    color: #fff;
+    border: none;
+    /* padding: 15px 20px; */
+    padding: 15px 20px;
+    /* transition: background-color 0.2s; */
+}
+
+/* button#sendbtn:hover {
+    background-color: #7B1FA2;
+} */
+
+
+.file-share-btn{
+        /* width:15%; */
+    border:2px solid black;
+    cursor: pointer;
+    /* border-radius: 0 12px 12px 0; */
+    background-color: #8E24AA;
+    /* font-family: 'Roboto', sans-serif; */
+    font-size: 17px;
+    color: #fff;
+    /* border: none; */
+    /* padding: 15px 20px; */
+    padding: 15px 20px;
+    /* transition: background-color 0.2s; */
+}
+
+
+#backbtn{
+/* width:8%; */
+cursor: pointer;
+border-radius:  12px 0 0 12px;
+background-color: #8E24AA;
+    /* font-family: 'Roboto', sans-serif; */
+font-size: 17px;
+color: #fff;
+border: none;
+padding: 15px 20px;
+}
+
+.timestamp {
+    display: block;
+    color: darkslategray;
+    font-size: 0.6em;
+    text-align: right;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+
+.fileshare{
+        /* width:15%; */
+        /* border:2px solid black; */
+        cursor: pointer;
+        border-radius: 0 12px 12px 0;
+        background-color: #8E24AA;
+        /* font-family: 'Roboto', sans-serif; */
+        font-size: 17px;
+        color: #fff;
+        border: none;
+        /* padding: 15px 20px; */
+        padding: 15px 20px;
+        /* transition: background-color 0.2s; */
+}
